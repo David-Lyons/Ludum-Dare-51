@@ -13,10 +13,10 @@
 #include "data_path.hpp"
 #include "load_save_png.hpp"
 #include "read_write_chunk.hpp"
-#include "asset_script.hpp"
+// #include "asset_script.hpp"
 
 PlayMode::PlayMode() {
-	create_assets();
+	// create_assets();
 
 	// Background sky blue
 	ppu.background_color = glm::u8vec3(150, 200, 250);
